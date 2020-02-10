@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+
+    background: radial-gradient(rgba(179, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.2));
+    text-align: center;
+}
+
+#nameDiv{
+    margin-top: 50px;
+}
+
+.input{
+    font-size: 25px;
+    color: #004d00;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+#entry{
+    width: 150px;
+    height: 40px;
+    font-size: 23px;
+    font-family: sans-serif;
+    background-color: #001866;
+    color: whitesmoke;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+    margin:10px;
+}
+
+#submit{
+    width: 150px;
+    height: 40px;
+    font-size: 23px;
+    font-family: sans-serif;
+    background-color: #001866;
+    color: whitesmoke;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+    margin:10px;
+}
+
+#avg{
+    width: 150px;
+    height: 40px;
+    font-size: 23px;
+    font-family: sans-serif;
+    background-color: #001866;
+    color: whitesmoke;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+    margin:10px;
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+    background-color: burlywood;
+}
+
+table, th, td{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+th{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial;
+    color: #004d00;
+}
+
+td{
+    font-size: 25px;
+    color: crimson;
+    font-weight: 400;
+    font-family: Georgia;
+}

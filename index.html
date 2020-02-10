@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User Details</title>
+    
+<link rel="stylesheet" type="text/css" href="style.css"> 
+   
+</head>
+<body>
+    
+    <div id="container">
+        <div id="nameDiv" class="input">Name: <input id="name" class="form-control" onfocus="this.value=''" autocomplete="off" type="text"/></div>       
+        <div class="input">Age: <input id="age" onfocus="this.value=''" autocomplete="off" type="text"/></div>   
+
+        <button id="entry">Input entry</button>
+        <button id="submit" onclick="calcAverage()">submit</button>
+        </div>
+      
+    <table id="display">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Category</th>
+        </tr>
+    </table>
+
+    <button id="avg"> Average </button>
+    <span id="average"><input id="average" type="text"></span>
+ 
+    <script src="script.js"></script>   
+    
+</body>
+</html>
